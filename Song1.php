@@ -14,7 +14,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top"> Tune Station </a>
+                <a class="navbar-brand" href="#page-top"> Melody Log </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -31,8 +31,8 @@
         <!-- Header-->
         <header class="bg-dark bg-gradient text-white">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Tune Station</h1>
-                <p class="lead">“Music is the soundtrack of your life.” </p>
+                <h1 class="fw-bolder">Welcome to Melody Log</h1>
+                <p class="lead">“Music is the life itself.” </p>
                 
             </div>
         </header>
@@ -44,95 +44,79 @@
                         
                         <?php
 
-                        echo "<h2 class='text-primary'>Summer Song</h2>";
-                        echo "<p class='lead '>Silent Sanctuary</p>";
+                        echo "<h2 class='text-primary'>Easy</h2>";
+                        echo "<p class='lead '>Mac Ayres</p>";
                         echo "<br/>";
-                
-                        echo "<p> Magkatabi tayo sa duyan </p>";
-                        echo "<p> Sa ilalim ng buwan</p>";
-                        echo "<p> Buhangin sa ating mga paa</p>";
-                        echo "<p> Ang dagat ay kumakanta</p>";
-                        echo "<p> Matagal naring magkakilala</p>";
-                        echo "<p> Minahal na kita</p>";
-                        echo "<p> Simula pa nung unang..</p>";
-                        echo "<p> Unang makita ang iyong mga mata</p>";
+                        
+                        //Verse
+                        echo "<p> Verse</p>";
+                        echo "<p> Oh you heard </p>";
+                        echo "<p> What they say</p>";
+                        echo "<p> Oh, the more things change</p>";
+                        echo "<p> The more they stay the same</p>";
+                        echo "<p> Ain't that a shame? (I know it's a shame)</p>";
+                        echo "<p> I've been good</p>";
+                        echo "<p> For some time</p>";
+                        echo "<p> I'd be lyin' if I said that</p>";
+                        echo "<p> You ain't on my mind</p>";
+                        echo "<p> Been tryna give it some time</p>";
                         echo "<br/>";
 
 
                         //Pre Chorus
                         echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
+                        echo "<p> Feelin' like I'm runnin' away</p>";
+                        echo "<p> Never had the chance, chance to say</p>";
                         
                         //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
+                        echo "<p> I can say that lovin' you is easy</p>";
+                        echo "<p> I don't need to prove a single thing</p>";
+                        echo "<p> Somewhere along the way I guess you got under my skin</p>";
+                        echo "<p> I put all my cards out on the table</p>";
+                        echo "<p> You ain't ever gonna show your hand</p>";
+                        echo "<p> I would rather hold you close than try to understand</p>";
                         echo "<br/>";
 
-
-                        echo "<p> Tuwing ika'y nalulungkot</p>";
-                        echo "<p> Nandito lang ako pangako ko sa'yo</p>";
-                        echo "<p> Hindi kita iiwan</p>";
-                        echo "<p> Huwag kang mag-alala (huwag kang mag-alala)</p>";
-                        echo "<p> Gusto mo ng beer ililibre kita (sige na, sige na, sige na)</p>";
-                        echo "<p> Basta't ika'y kasama, di ako mangangamba</p>";
-                        echo "<p> Kislap ng yong mata tibok ng puso'y sumaya</p>";
-                        echo "<br/>";
-
-                        echo "<p> Ikaw lang ang aking mamahalin</p>";
-                        echo "<p> Hanggang sa langit ikaw ay dadalhin</p>";
-                        echo "<p> Tara na, tara na, tara na</p>";
+                        //Verse
+                        echo "<p> Verse</p>";
+                        echo "<p> Mornin' sun, mornin' high</p>";
+                        echo "<p> Oh, I think this haze is for now my best disguise</p>";
+                        echo "<p> No need to think about why</p>";
+                        echo "<p> What'cha say, starry-eyed</p>";
+                        echo "<p> How you love to smile</p>";
+                        echo "<p> And watch the clouds reside</p>";
+                        echo "<p> Just tryna give it some time</p>";
                         echo "<br/>";
 
                         //Pre Chorus
                         echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
+                        echo "<p> Feelin' like I'm runnin' away</p>";
+                        echo "<p> Never had the chance, chance to say</p>";
 
                         //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
+                        echo "<p> I can say that lovin' you is easy</p>";
+                        echo "<p> I don't need to prove a single thing</p>";
+                        echo "<p> Somewhere along the way I guess you got under my skin</p>";
+                        echo "<p> I put all my cards out on the table</p>";
+                        echo "<p> You ain't ever gonna show your hand</p>";
+                        echo "<p> I would rather hold you close than try to understand</p>";
                         echo "<br/>";
 
-                        echo "<p> Magkatabi tayo sa duyan</p>";
-                        echo "<p> Sa ilalim ng buwan</p>";
-                        echo "<p> Buhangin sa ating mga paa</p>";
-                        echo "<p> Ang dagat ay kumakanta</p>";
+                        echo "<p> I put all my cards out on the table</p>";
+                        echo "<p> You ain't ever gonna show your hand</p>";
+                        echo "<p> I would rather hold you close than try to understand</p>";
                         echo "<br/>";
 
-                        echo "<p> Matagal naring magkakilala</p>";
-                        echo "<p> Minahal na kita</p>";
-                        echo "<p> Simula pa nung una</p>";
-                        echo "<p> Unang makita ang iyong mga mata</p>";
-                        echo "<br/>";
-
-                        //Pre Chorus
-                        echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
-
-                         //Chorus
-                        echo "<br/>";
-                        echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
-                        echo "<p> Sa ilalim ng araaaaaaawwwwww</p>";
+                         echo "<p> I can say that lovin' you is easy</p>";
+                        echo "<p> I don't need to prove a single thing</p>";
+                        echo "<p> Somewhere along the way I guess you got under my skin</p>";
+                        echo "<p> I put all my cards out on the table</p>";
+                        echo "<p> You ain't ever gonna show your hand</p>";
+                        echo "<p> I would rather hold you close than try to understand</p>";
                         echo "<br/>";
 
                         ?>
@@ -144,7 +128,7 @@
         </section>
 
         <footer class="py-4 bg-danger">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. Patrick Lance Manuel G. Sadiwa </p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. Karylle M. Manrique </p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
