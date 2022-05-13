@@ -50,88 +50,89 @@
                         
                         //Verse
                         echo "<p> Verse</p>";
-                        echo "<p> We can take the long way</p>";
-                        echo "<p> We'll get there even if it takes all night</p>";
-                        echo "<p> We'll talk until the morning</p>";
-                        echo "<p> Don't tell me that you're fine if you're not fine</p>";
-                        echo "<p> And if it's only pleasure that you're seeking</p>";
-                        echo "<p> Then I'll be penciling you in for the weekend</p>";
-                        echo "<p> Forget about the white noise</p>";
-                        echo "<p> It's chocolate and pajamas till the whole world fades</p>";
+                        echo "<p> Sa 'kin nakatingin</p>";
+                        echo "<p> Parang lumilipad nailing sa hangin</p>";
+                        echo "<p> 'Di na mapakali</p>";
+                        echo "<p> Ikaw lang naman ang ninanais</p>";
+                        echo "<p> 'Di ba nalilito ang puso mo kung saan na papunta?</p>";
+                        echo "<p> Sa akin ba sinta?</p>";
                         echo "<br/>";
 
                         //Pre Chorus
                         echo "<p> Pre-Chorus</p>";
-                        echo "<p> Just right, yes please</p>";
-                        echo "<p> We can sink into the sofa for the whole week</p>";
-                        echo "<p> Just right, easy</p>";
+                        echo "<p> 'Wag mo sanang isipin</p>";
+                        echo "<p> Na parang wala lang sa 'kin</p>";
+                        echo "<p> Ang lahat nating pinagsamahan</p>";
 
                         //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> If we could just break down</p>";
-                        echo "<p> Break down these walls</p>";
-                        echo "<p> Over some take out</p>";
-                        echo "<p> Don't you worry bout nothing at all</p>";
-                        echo "<p> I can get to know you</p>";
-                        echo "<p> We can take it slow</p>";
-                        echo "<p> Savor every moment</p>";
-                        echo "<p> Keep it on the low</p>";
-                        echo "<p> Baby just let go</p>";
-                        echo "<p> And we can keep this whole thing casual</p>";
-                        echo "<p> Yeah, yeah, yeah</p>";
+                        echo "<p> Isasayaw kita</p>";
+                        echo "<p> Na para bang ito</p>";
+                        echo "<p> Na ang panghuli</p>";
+                        echo "<p> Natin sinta</p>";
+                        echo "<p> 'Wag kang mag-alala</p>";
+                        echo "<p> 'Di kita hahayaang mag-isa</p>";
+                        echo "<p> Sasamahan nga kita</p>";
+                        echo "<p> Sa dulo ng ligaya</p>";
                         echo "<br/>";
 
                         //Verse
                         echo "<p> Verse</p>";
-                        echo "<p> Yeah, check</p>";
-                        echo "<p> Well take it back to the beginning when we first met</p>";
-                        echo "<p> I find it funny how you hit me with the silence</p>";
-                        echo "<p> Said lady what's the deal</p>";
-                        echo "<p> Cause I'm diggin' your sex appeal</p>";
-                        echo "<p> But now when I'm with you I feel</p>";
+                        echo "<p> 'Di pa ba halata</p>";
+                        echo "<p> Na iba ang ihip ng hangin dito?</p>";
+                        echo "<p> Kung pwede lang sabihin</p>";
+                        echo "<p> Ng diretsahan ang aking gusto</p>";
+                        echo "<p> Teka ang bulag mo naman</p>";
+                        echo "<p> Kung 'di parin na sisilayan</p>";
+                        echo "<p> Nagbago na ang pagtingin</p>";
                         echo "<br/>";
 
                         //Pre Chorus
                         echo "<p> Pre-Chorus</p>";
-                        echo "<p> Just right, yes please</p>";
-                        echo "<p> We can sink into the sofa for the whole week</p>";
-                        echo "<p> Just right, easy</p>";
+                        echo "<p> 'Wag mo sanang isipin</p>";
+                        echo "<p> Na parang wala lang sa 'kin</p>";
+                        echo "<p> Ang lahat nating pinagsamahan</p>";
 
                          //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> If we could just break down</p>";
-                        echo "<p> Break down these walls</p>";
-                        echo "<p> Over some take out</p>";
-                        echo "<p> Don't you worry bout nothing at all</p>";
-                        echo "<p> I can get to know you</p>";
-                        echo "<p> We can take it slow</p>";
-                        echo "<p> Savor every moment</p>";
-                        echo "<p> Keep it on the low</p>";
-                        echo "<p> Baby just let go</p>";
-                        echo "<p> And we can keep this whole thing casual</p>";
+                        echo "<p> Isasayaw kita</p>";
+                        echo "<p> Na para bang ito</p>";
+                        echo "<p> Na ang panghuli</p>";
+                        echo "<p> Natin sinta</p>";
+                        echo "<p> 'Wag kang mag-alala</p>";
+                        echo "<p> 'Di kita hahayaang mag-isa</p>";
+                        echo "<p> Sasamahan nga kita</p>";
+                        echo "<p> Sa dulo ng ligaya</p>";
                         echo "<br/>";
 
-                        echo "<p> Relaxation till we take it to the limit</p>";
-                        echo "<p> Meditation till we let it all go</p>";
-                        echo "<p> Lazy days and hazy nights and new beginnings</p>";
-                        echo "<p> If you love me won't you say so</p>";
-                        echo "<p> (Girl won't you say so)</p>";
-                        echo "<p> Relaxation till we take it to the limit</p>";
-                        echo "<p> Meditation till we let it all go</p>";
-                        echo "<p> Lazy days and hazy nights and new beginnings</p>";
-                        echo "<p> Baby we can keep it casual (so we can keep it casual)</p>";
+                        //Bridge
+                        echo "<p> Bridge </p>";
+                        echo "<p> At ang oras ay tumatakbo</p>";
+                        echo "<p> 'Di pa rin alam kung gusto mo rin ako</p>";
+                       
+                        //Chorus
+                        echo "<br/>";
+                        echo "<p> Chorus</p>";
+                        echo "<p> Isasayaw kita</p>";
+                        echo "<p> Na para bang ito</p>";
+                        echo "<p> Na ang panghuli</p>";
+                        echo "<p> Natin sinta</p>";
+                        echo "<p> 'Wag kang mag-alala</p>";
+                        echo "<p> 'Di kita hahayaang mag-isa</p>";
+                        echo "<p> Sasamahan nga kita</p>";
+                        echo "<p> Isasayaw kita</p>";
                         echo "<br/>";
 
-                        echo "<p> Relaxation till we take it to the limit</p>";
-                        echo "<p> Meditation till we let it all go</p>";
-                        echo "<p> Lazy days and hazy nights and new beginnings</p>";
-                        echo "<p> If you love me won't you say so</p>";
-                        echo "<p> Relaxation till we take it to the limit</p>";
-                        echo "<p> Meditation till we let it all go</p>";
-                        echo "<p> Lazy days and hazy nights and new beginnings</p>";
-                        echo "<p> We can keep it casual </p>";
+                        echo "<p> Na para bang ito</p>";
+                        echo "<p> Na ang panghuli</p>";
+                        echo "<p> Natin sinta</p>";
+                        echo "<p> 'Wag kang mag-alala</p>";
+                        echo "<p> 'Di kita hahayaang mag-isa</p>";
+                        echo "<p> Sasamahan nga kita</p>";
+                        echo "<p> Sa dulo</p>";
+                        
                         ?>
 
 
