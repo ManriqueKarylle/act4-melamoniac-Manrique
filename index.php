@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-//
+//start
 $song_lyrics1 = "Easy";
 $song_lyrics2 = "Still";
 $song_lyrics3 = "Comethru";
@@ -12,9 +12,9 @@ $song_lyrics5 = "Ligaya";
 $url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
 
-//kung keri iclick buttons
+//buttons eme
 if(isset($_REQUEST['search_button'])=== true){
-    //url
+    //url nila
     if($_REQUEST['song_title'] == $song_lyrics1){
         header("Location: ".$url_add."?easy");
     }
@@ -31,7 +31,7 @@ if(isset($_REQUEST['search_button'])=== true){
         header("Location: ".$url_add."?ligaya");
     }
 
-        //ses var
+        
         $_SESSION['ses_lyrics1'] = $song_lyrics1;
         $_SESSION['ses_lyrics2'] = $song_lyrics2;
         $_SESSION['ses_lyrics3'] = $song_lyrics3;
@@ -57,23 +57,23 @@ if(isset($_REQUEST['search_button'])=== true){
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top" id="mainNav">
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top"> Melody Log </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Song 3</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song4.php">Song 4</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song5.php">Song 5</a></li>
+                        <li class="nav-item"><a class="nav-link text-light_gray" href="song1.php">Song 1</a></li>
+                        <li class="nav-item"><a class="nav-link text-light_gray" href="song2.php">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light_gray" href="song3.php">Song 3</a></li>
+                        <li class="nav-item"><a class="nav-link text-light_gray" href="song4.php">Song 4</a></li>
+                        <li class="nav-item"><a class="nav-link text-light_gray" href="song5.php">Song 5</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-dark bg-gradient text-white">
+        <header class="bg-secondary bg-gradient text-white">
             <div class="container px-4 text-center">
                 <h1 class="fw-bolder">Welcome to Melody Log</h1>
                 <p class="lead">"Music is the life itself."</p>
@@ -104,6 +104,9 @@ if(isset($_REQUEST['search_button'])=== true){
                                 }else if(isset($_REQUEST['casual'])=== true){
                                     echo "Redirecting...";
                                     header ("Refresh: 3; url=song4.php");
+                                }else if(isset($_REQUEST['ligaya'])===true){
+                                    echo "Redirecting...";
+                                    header ("Refresh: 3; url=song5.php");
                                 }
 
                                     
@@ -111,7 +114,7 @@ if(isset($_REQUEST['search_button'])=== true){
                                 
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control rounded-left" placeholder="Song Title here" name="song_title" ></div>
+                                    <input type="text" class="form-control rounded-left" placeholder="Song Title" name="song_title" ></div>
                                     <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="search_button"> Search </button>
                                 </div>
                             </div>
@@ -123,7 +126,7 @@ if(isset($_REQUEST['search_button'])=== true){
             </div>
         </section>
 
-        <footer class="py-3 bg-danger">
+        <footer class="py-3 bg-secondary">
             <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. Karylle M. Manrique</p></div>
         </footer>
         <!-- Bootstrap core JS-->
