@@ -99,7 +99,9 @@ if(isset($_REQUEST['search_button'])=== true){
                                 }else if(isset($_REQUEST['casual'])=== true){
                                     echo "Redirecting...";
                                     header ("Refresh: 3; url=song4.php");
-                                }
+                                }else if(isset($_REQUEST['ligaya'])=== true){
+                                    echo "Redirecting...";
+                                    header ("Refresh: 3; url=song5.php");
                                     
                                 ?>
                                 <div class="form-group">
