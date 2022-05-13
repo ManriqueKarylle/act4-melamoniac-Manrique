@@ -44,8 +44,8 @@
                         
                         <?php
 
-                        echo "<h2 class='text-primary'>Casual</h2>";
-                        echo "<p class='lead '>Jeff Bernat, Jesse Barrera, and Johnny Stimson</p>";
+                        echo "<h2 class='text-primary'>Ligaya</h2>";
+                        echo "<p class='lead '>Mrld</p>";
                         echo "<br/>";
                         
                         //Verse
